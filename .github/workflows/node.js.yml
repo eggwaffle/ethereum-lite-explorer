@@ -29,7 +29,6 @@ jobs:
       run: npm run build
       env:
         APP_NODE_URL: https://eggwaffle-ganache.fly.dev:8545
-    - run: touch ./out/.nojekyll
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4.2.3
